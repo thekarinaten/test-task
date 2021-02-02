@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'Proxima Novа';
+  src: url(/assets/fonts/ProximaNova-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(/assets/fonts/Gilroy-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url(/assets/fonts/BebasNeueRegular.ttf);
+}
+
+body {
+  margin: 0 auto;
+}
+
+body, html, ul, ol, li, p, h1, h2, h3, h4 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.burger {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0px;
+}
+
+.email {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+
+.email-title, .phone-title {
+  color: #fff;
+  font-family: 'Proxima Novа', sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: -0.5px;
+  opacity: 0.5;
+}
+
+.email-link {
+  color: #FEE040;
+  text-decoration: none;
+}
+
+.email-link:hover{
+  cursor: pointer;
+  border-bottom: 3px solid #FEE040;
+  transition: 0.3s;
+}
+
+.email-link:active, :visited{
+  color: #FEE040;
+  text-decoration: none;
+}
+
+.phone-link:hover{
+  cursor: pointer;
+  border-bottom: 3px solid #fff;
+  transition: 0.3s;
+}
+
+.phone-link:active, :visited{
+  color: #fff;
+  text-decoration: none;
+}
+
+.email-name, .phone-title {
+  padding-left: 9px;
+}
+
+.email-name {
+  color: #FEE040;
+  font-family: 'Proxima Nova', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 12px;
+  letter-spacing: -0.5px;
+  padding-left: 9px;
+  text-align: right;
+}
+
+.header-contacts {
+  align-items: center;
+  display: flex;
+  padding-left: 643px;
+}
+
+.header-section {
+  align-items: center;
+  display: flex;
+  padding: 18px 250px;
+}
+
+.logo {
+  padding-left: 80px;
+}
+
+.phone {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.phone-icon {
+  opacity: 0.5;
+}
+
+.phone-container {
+  padding-left: 140px;
+  width: 188px;
+}
+
+.phone-number {
+  color: #fff;
+  font-family: 'Proxima Nova', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  padding-top: 7px;
+}
