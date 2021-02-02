@@ -13,6 +13,11 @@
   src: url(/assets/fonts/BebasNeueRegular.ttf);
 }
 
+@font-face {
+  font-family: 'Gilroy ExtraBold';
+  src: url(/assets/fonts/Gilroy-ExtraBold.ttf);
+}
+
 body {
   margin: 0 auto;
 }
@@ -106,6 +111,12 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
   padding: 18px 250px;
 }
 
+.intro-container {
+  background-image: url(/assets/images/intro-section-bg.jpg);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+}
+
 .logo {
   padding-left: 80px;
 }
@@ -131,4 +142,81 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
   font-weight: bold;
   line-height: 24px;
   padding-top: 7px;
+}
+
+/* Content Section */
+
+.button-link {
+  color: #000;
+  text-decoration: none;
+  padding-left: 12p;
+}
+
+.content-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-container_wrapper {
+  padding: 0px 370px;
+  padding-top: 128px;
+  padding-bottom: 63px;
+}
+
+.content-button {
+  align-items: center;
+  background-color: #FEE040;
+  border: none;
+  border-radius: 2px;
+  color: #000;
+  display: flex;
+  font-family: 'Gilroy ExtraBold', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  outline: none;
+  padding: 28px 58px;
+  text-transform: uppercase;
+  transition: all .3s ease-in-out;
+}
+
+.content-button:hover {
+  align-items: center;
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: .2s;
+}
+
+.content-button-section {
+  max-width: 340px;
+}
+
+.content-button_sibtitle {
+  color: #fff;
+  font-family: 'Proxima Nova', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.heading-section {
+  max-width: 580px;
+}
+
+.heading-subtitle {
+  color: #fff;
+  font-family: 'Proxima Nova', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 20px;
+  line-height: 34px;
+  opacity: 0.7;
+}
+
+.heading-title {
+  color: #fff;
+  font-family: 'Proxima Nova', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 42px;
+  line-height: 51px;
+  letter-spacing: -0.5px;
+  padding-bottom: 40px;
 }
