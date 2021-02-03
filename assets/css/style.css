@@ -453,40 +453,43 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
   margin-right: 80px;
 }
 
+.services-item:nth-child(5) {
+  padding-right: 250px;
+}
+
 .services-scroll {
   display: flex;
   flex-wrap: nowrap;
   min-height: 380px;
   overflow-y: hidden;
-  overflow-x: scroll;
+  overflow-x: auto;
   margin-bottom: 80px;
 }
 
 ::-webkit-scrollbar {
-  width: 9px;
-  height: 5px;
-  background: transparent;
+  width: 6px;
+  height: 6px;
 }
 
-.services-scroll::-webkit-scrollbar-thumb {
-  background: -webkit-linear-gradient(#fee040, #fffae0);
+ ::-webkit-scrollbar-thumb {
+  background: linear-gradient(270deg, #FEE040 0%, rgba(254, 224, 64, 0) 100%);
   border-radius: 15px;
 }
 
-.services-scroll::-webkit-scrollbar-thumb:hover {
-  cursor: pointer;
-  background: -webkit-linear-gradient(#fee040, #fffae0);
+ ::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(270deg, #FEE040 0%, rgba(254, 224, 64, 0) 100%);
 }
 
-.services-scroll::-webkit-scrollbar-track{
+ ::-webkit-scrollbar-track {
   background: transparent;
   border-radius: 15px;
 }
-.sevices-button {
+
+.services-button {
   background: transparent;
   border: none;
   outline: none;
-  padding-bottom: 56px;
+  margin-bottom: 56px;
 }
 
 .services-button-item {
