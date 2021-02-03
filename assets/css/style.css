@@ -57,10 +57,19 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
   text-decoration: none;
 }
 
-.email-link:hover{
+.email, .phone-button {
+  background: transparent;
+  border: none;
+  white-space: nowrap;
+}
+
+.email:hover{
+  background: transparent;
+  border: none;
   cursor: pointer;
-  border-bottom: 3px solid #FEE040;
-  transition: 0.3s;
+  outline: none;
+  transform: scale(1.05);
+  transition: 0.2s;
 }
 
 .email-link:active, :visited{
@@ -68,13 +77,21 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
   text-decoration: none;
 }
 
-.phone-link:hover{
+.phone-button:hover{
+  background: transparent;
+  border: none;
   cursor: pointer;
-  border-bottom: 3px solid #fff;
-  transition: 0.3s;
+  outline: none;
+  transform: scale(1.05);
+  transition: 0.2s;
 }
 
-.phone-link:active, :visited{
+.phone-link:active{
+  color: #fff;
+  text-decoration: none;
+}
+
+.phone-link {
   color: #fff;
   text-decoration: none;
 }
@@ -104,6 +121,7 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
   align-items: center;
   display: flex;
   padding: 18px 250px;
+  border-bottom: 1px solid rgba(255, 255, 255, .3);
 }
 
 .logo {
